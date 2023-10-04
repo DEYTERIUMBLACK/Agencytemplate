@@ -1,0 +1,116 @@
+header{
+    background-color:  #212529;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+    width:100%;
+}
+.navbar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.navicon a img{
+    height: 60px;
+    width: 200px;
+}
+.navicons{
+    display: flex;
+    align-items: center;
+}
+.navicons li {
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navicons li a{
+    color: white;
+}
+.navicons li a:hover{
+ color: #F6C101;
+}
+#hero {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+    background: url(../images/header-bg.jpg) center/cover no-repeat;
+
+}
+.hero-row{
+    margin: 0 auto;
+}
+.hero-columns{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.hero-columns h2{
+    font-style: italic;
+    font-size: 2.25rem;
+}
+.hero-columns h1{
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+.hero-columns button{
+    background-color: #F6C101;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.hero-columns button:hover{
+    background-color: #d7aa08;
+}
+#services{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 50px;
+}
+.hero-row{
+    margin: 0 auto;
+    justify-content: center;
+}
+.servicestxt{
+align-items: center;
+text-align: center;
+justify-content: center;
+/* width: 500px;
+border: green 2px solid; */
+}
+.servicestxt h1{
+
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5em;
+}
+.servicestxt p{
+    color: gray;
+}
+.serviceboxes{
+    display:flex;
+    justify-content: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.circle{
+    height: 128px;
+    width: 128px;
+}
+i{
+    color: #F6C101;
+}
+.col-md-4{
+    text-align: center;
+}
+.srvctxt{
+    color: gray;
+}
